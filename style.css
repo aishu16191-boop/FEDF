@@ -1,40 +1,9 @@
-body {
-font-family: Arial;
-background: linear-gradient(135deg,#4facfe,#00f2fe); text-align: center;}
-
-.container { background: white; padding: 20px; width: 90%; margin: auto; border-radius: 10px;}
-
-/* Table */
-table {
-width: 90%;
-margin: 20px auto; border-collapse: collapse; background: white; }
-
-th, td {
-padding: 10px;
-border: 1px solid #ccc;
-}
-
-/* Passport image */
-.photo-box { width: 80px; height: 100px;
-overflow: hidden;
-}
-
-.photo-box img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-/* ID Card */
-.id-card { width: 320px;
-height: 500px;
-border: 2px solid black;
-
-border-radius: 10px; padding: 10px;
-text-align: center;
-background: white;
-margin: 20px auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-}
+body { font-family: Arial; background: #f4f4f4; }
+ .container { width: 70%; margin: 40px auto; text-align: center; } 
+ .title { font-size: 28px; } 
+ button { padding: 10px 15px; margin: 5px; border-radius: 20px; border: none; background: green; color: white; cursor: pointer; }
+button:hover { background: darkgreen; } 
+.search-box { width: 60%; padding: 10px; margin-bottom: 15px; border-radius: 20px; } 
+table { width: 100%; background: white; border-collapse: collapse; } 
+th { background: blue; color: white; padding: 10px; }
+ td { padding: 10px; border-bottom: 1px solid #ddd; }
